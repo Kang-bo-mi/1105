@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>실습-풀무원</title>
+ <link href="css/reset.css" rel="stylesheet">
+ <link href="css/swiper-bundle.css" rel="stylesheet">
+ <link href="css/aos.css" rel="stylesheet">
+ <link href="css/style.css" rel="stylesheet">
+
+
+ <script src="js/jquery-3.5.1.js"></script>
+ <script src="js/swiper-bundle.js"></script>
+ <script src="js/aos.js"></script>
+ <script src="js/script.js" defer></script>
+
+</head>
+<body>
+ <header class="header">
+  <div class="logo">
+   <a href="#"><img src="imgs/logo.png" alt=""></a>
+  </div>
+  <ul class="menu">
+   <li>
+    <a href="#">회사소개</a>
+    <ul class="sub">
+     <li><a href="#">총괄CEO인사말</a></li>
+     <li><a href="#">CI소개</a></li>
+     <li><a href="#">연혁</a></li>
+     <li><a href="#">가치체계</a></li>
+     <li><a href="#">사업소개</a></li>
+     <li><a href="#">동반성장</a></li>
+     <li><a href="#">기업지배구조</a></li>
+     <li><a href="#">투자정보</a></li>
+    </ul>
+   </li>
+   <li>
+    <a href="#">사회책임경영</a>
+    <ul class="sub">
+     <li><a href="#">개요</a></li>
+    <li><a href="#">추진전략</a></li>
+     <li><a href="#">활동 및 실적</a></li>
+     <li><a href="#">수상</a></li>
+    
+    </ul>
+   </li>
+   <li>
+    <a href="#">바른 먹거리</a>
+    <ul class="sub">
+     <li><a href="#">지속가능 식생활</a></li>
+     <li><a href="#">지속가능식품</a></li>
+     <li><a href="#">바른먹거리 원칙</a></li>
+     <li><a href="#">바른먹거리 캠페인</a></li>
+     <li><a href="#">풀무원 지구식단</a></li>
+     <li><a href="#">풀무원뉴스</a></li>
+     <li><a href="#">ESG경영</a></li>
+     <li><a href="#">멀티미디어</a></li>
+     <li><a href="#">자료&공지</a></li>
+     </ul>
+   </li>
+   <li>
+    <a href="#">NEWS</a>
+    <ul class="sub">
+     <li><a href="#">풀무원뉴스</a></li>
+     <li><a href="#">ESG경영</a></li>
+     <li><a href="#">멀티미디어</a></li>
+     <li><a href="#">자료&공지</a></li>
+     </ul>
+   </li>
+   
+  </ul>
+  
+  <ul class="gnb">
+   <li><a href="#"><img src="imgs/cir_kr.png" alt=""></a></li>
+  
+   <li class="m_btn">
+    <span></span>
+    <span></span>
+    <span></span>
+   </li>
+  
+  </ul>
+  <div class="sitemap_bg"> <!-- fixed , 100% * 100%-->
+   <div class="site_wrap">
+    <div class="site_logo">
+     <a href="#"><img src="imgs/logo_w.png" alt=""></a>
+    </div>
+    <div class="close">
+     <span></span>
+     <span></span>
+    </div>
+     <ul class="site_map">
+      <li>
+        <a href="#">회사소개</a>
+        <ul class="site_sub">
+         <li><a href="#">총괄CEO인사말</a></li>
+         <li><a href="#">CI소개</a></li>
+         <li><a href="#">연혁</a></li>
+         <li><a href="#">가치체계</a></li>
+         <li><a href="#">사업소개</a></li>
+         <li><a href="#">동반성장</a></li>
+         <li><a href="#">기업지배구조</a></li>
+         <li><a href="#">투자정보</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">사회책임경영</a>
+        <ul class="site_sub">
+         <li><a href="#">개요</a></li>
+        <li><a href="#">추진전략</a></li>
+         <li><a href="#">활동 및 실적</a></li>
+         <li><a href="#">수상</a></li>
+        
+        </ul>
+       </li>
+       <li>
+        <a href="#">바른 먹거리</a>
+        <ul class="site_sub">
+         <li><a href="#">지속가능 식생활</a></li>
+         <li><a href="#">지속가능식품</a></li>
+         <li><a href="#">바른먹거리 원칙</a></li>
+         <li><a href="#">바른먹거리 캠페인</a></li>
+         <li><a href="#">풀무원 지구식단</a></li>
+         <li><a href="#">풀무원뉴스</a></li>
+         <li><a href="#">ESG경영</a></li>
+         <li><a href="#">멀티미디어</a></li>
+         <li><a href="#">자료&공지</a></li>
+         </ul>
+       </li>
+       <li>
+        <a href="#">NEWS</a>
+        <ul class="site_sub">
+         <li><a href="#">풀무원뉴스</a></li>
+         <li><a href="#">ESG경영</a></li>
+         <li><a href="#">멀티미디어</a></li>
+         <li><a href="#">자료&공지</a></li>
+         </ul>
+       </li>
+     </ul>
+     <ul class="fnb">
+      <li><a href="#">개인정보처리방침</a></li>
+      <li><a href="#">이용약관</a></li>
+     </ul>
+     <div class="f_info">
+      <span>ADDRESS:서울특별시 강남구 역삼로 552 (대치동, KM빌딩) 4층, 5층</span>
+      <span>EMAIL:webmaster@erom.co.kr</span>
+     </div>
+   </div><!-- site_wrap end-->
+  </div><!-- sitemap_bg end -->
+ </header><!--100% * 105px,max-width:1620px-->
+ <div class="main" data-aos="zoom-in">
+  <div class="swiper">
+    <div class="swiper-wrapper">
+<div class="swiper-slide slide1">
+<div class="slide_wrap">
+<div class="slide_num">01</div>
+<div class="slide_title">
+  <p>풀무원의 약속1</p>
+  <p>먹거리에서 생활습관까지<br>
+  <span>건강한 개인과 사회에 기여</span>하겠습니다.</p>
+  <p>
+    이롬은 지나칠 수 있는 자연에서 인간에게 유익한 힘을 발견하는 지혜,<br>
+    과학의 힘으로 자연을 담아 건강에 대한 새로운 해답을 제공해 나가겠습니다. 
+  </p>
+<a href="#">자세히 보기</a>
+</div><!--title_end-->
+</div>
+</div>
+
+<div class="swiper-slide slide2">
+  <div class="slide_wrap">
+    <div class="slide_num">02</div>
+    <div class="slide_title">
+      <p>풀무원의 약속2</p>
+      <p>삶의 가치를 전달할 수 있도록 <br>
+      <span>건강 라이프 스타일을 연구<br>합니다.</span>
+      </p>
+
+      
+      <p>
+        저희 풀무원은 고객의 삶 속에 깊이 들어가 먹을거리를 시작으로<br>생활전반의 라이프 스타일을 제공하여, 행복하고 건강한 삶을 선물하고 있습니다.
+      </p>
+      <a href="#">자세히 보기</a>
+    </div><!--title_end-->
+  </div>
+</div>
+
+    <div class="swiper-slide slide3">
+      <div class="slide_wrap">
+        <div class="slide_num">03</div>
+        <div class="slide_title">
+          <p>풀무원의 약속3</p>
+          <p><span>당신의 면역력까지</span>
+          책임지도록<br>노력하고 있습니다.
+          
+          </p>
+          <p>
+           우리몸의 모든 질병예방을 위해 <br>여러가지 영양소를 넣었습니다.
+          </p>
+          <a href="#">자세히 보기</a>
+        </div><!--title_end-->
+      </div>
+    </div>
+
+
+
+        <div class="swiper-slide slide4">
+          <div class="slide_wrap">
+            <div class="slide_num">04</div>
+            <div class="slide_title">
+              <p>풀무원의 약속4</p>
+             <p> <span>건강한 영양분으로</span>
+              100세 시대를 만들고 있습니다.
+              </p>
+              <p>국제사랑의봉사단은 전 세계의 고통받는 이웃들을 사랑으로 섬기고<br>전인적 필요를 채워 주고자 전 세계 40여개국에서 활동하고 있습니다.</p>
+              <a href="#">자세히 보기</a>
+            </div><!--title_end-->
+          </div>
+        </div>
+
+        <div class="swiper-slide slide5">
+          <div class="slide_wrap">
+            <div class="slide_num">05</div>
+            <div class="slide_title">
+              <p>풀무원이 만드는 건강한 내일</p>
+             <p> 
+              <span>"바른 먹거리"가</span><br>아이들의 더 큰 미래를 책임집니다.
+             
+              </p>
+              <p>바른 먹거리로 사람과 지구의 건강한<br>내일을 만드는 #풀무원이야기</p>
+              
+
+              
+                <a href="#">자세히 보기</a>
+            </div><!--title_end-->
+          </div>
+        </div>
+
+        </div>
+  <div class="ctrl_box">
+    <ul class="btns">
+<li class="btn_prev"><img src="imgs/visual_prev.png" alt=""></li>
+<li class="swiper-pagination"></li>
+<li class="btn_next"><img src="imgs/visual_next.png" alt=""></li>
+    </ul>
+    <div class="swiper-pagination"></div><!--프로그레스 바-->
+  
+  
+  </div>
+
+ </div><!--swiper-->
+ </div><!--main-->
+
+ <div class="con1">
+  <div class="conwrap">
+    <p data-aos="zoom-in">바른 먹거리</p>
+    <p data-aos="zoom-in">나와 내 가족의 건강, 더 나아가 지구환경의 건강까지 두루 살핍니다.
+  
+    <ul class="con1_list">
+      <li>
+        <a href="#">
+          <img src="imgs/bro.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000">
+          <p data-aos="fade-right">Healthy</p>
+          <p>자세히 보기</p>
+        </a>
+      </li>
+
+
+
+      
+      <li>
+        <a href="#">
+          <img src="imgs/section01_icon02.png" alt="" data-aos="fade-up" data-aos-duration="1000">
+          <p data-aos="fade-up">GLOBAL</p >
+          <p>자세히 보기</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="imgs/section01_icon03.png" alt="" data-aos="fade-down" data-aos-duration="1000">
+          <p data-aos="fade-down">BIO&MEDICAL</p>
+          <p>자세히 보기</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="imgs/section01_icon04.png" alt="" data-aos="fade-up" data-aos-duration="1000">
+          <p data-aos="fade-up">HUMAN</p d>
+          <p>자세히 보기</p>
+        </a>
+      </li>
+     
+    </ul>
+  </div><!--conwrap-->
+ </div><!--con1-->
+ <div class="con2">
+  <div class="con2box">
+    
+    <div class="con2_title" data-aos="fade-right" data-aos-duration="1000">
+      
+      <p>Pulmuone</p>
+      
+      <p>풀무원</p>
+      
+      <p>
+       직접 수확한 농작물로 한땀한땀 건강함을 담았습니다.
+      </p>
+     
+   
+      
+      <a href="#">자세히보기</a>
+      
+    </div><!--con2_title-->
+    
+    
+    <img src="imgs/밭.jfif" alt="" data-aos="zoom-in" data-aos-duration="1000">
+  </div><!--con2box-->
+  
+  <div class="con2box">
+    <img src="imgs/플러스.jfif" alt="" data-aos="zoom-in" data-aos-duration="1000">
+    <div class="con2_title"data-aos="fade-left" data-aos-duration="1000">
+<p>healthy+</p>
+<p>Pulmuone +</p>
+<p>
+  건강한 라이프스타일<br>풀무원 플러스가 함께합니다.
+</p>
+<a href="#">자세히보기</a>
+</div><!--con2_title-->
+  </div><!--con2box-->
+  
+ </div><!--con2-->
+ <div class="con3">
+  <div class="con3_wrap">
+    <div class="con3_left">
+      <p data-aos="flip-down">life care company,<br> erom group</p>
+      <p>NEWS</p>
+      <a href="#">VIEW MORE</a>
+    </div>
+    <ul class="con3_right">
+<li data-aos="fade-left" data-aos-duration="1000">
+  <a href="#">
+    <img src="imgs/culture.jpg" alt="">
+    <span>풀무원, ‘올바른 반려문화 기부 캠페인’ 성료…동물보호단체에 사료 3.2톤 기부</span>
+    <span>.</span>
+    <span>24.10.17</span>
+  </a>
+</li>
+<li data-aos="fade-left" data-aos-duration="1000">
+  <a href="#">
+    <img src="imgs/pieto.jpg" alt="">
+    <span>풀무원건강생활, 풀무원건강식물원 ‘파이토 에너지 샷’ 등 제품 3종 비건 인증 획득…건강식품 시장 비건 트렌드 선도</span>
+    <span>.</span>
+    <span>24.10.17</span>
+  </a>
+</li>
+<li data-aos="fade-left" data-aos-duration="1000">
+  <a href="#">
+    <img src="imgs/vigun.jpg" alt="">
+    <span>풀무원푸드앤컬처, 세계 비건의 날 맞아 비건 인증 레스토랑 ‘플랜튜드’에서 특별 증정 이벤트</span>
+    <span>.</span>
+    <span>24.10.17</span>
+  </a>
+</li>
+
+    </ul>
+  </div><!--con3wrap-->
+ </div><!--con3-->
+
+ <div class="con4">
+  <div class="con4_wrap">
+    <div class="con4_title" >
+      <p data-aos="flip-down" data-aos-duration="1000">
+        자연을 대표하는 건강한 풀무원이 되겠습니다.
+      </p>
+    
+    <p data-aos="flip-down" data-aos-duration="1000">erom company About</p>
+  </div>
+  <ul class="con4_list">
+      <li data-aos="flip-left" data-aos-duration="1000">
+        <a href="#">
+          <p>Pulmuone About</p>
+          <p>풀무원<br>소개</p>
+        </a>
+      </li>
+
+      <li data-aos="flip-left" data-aos-duration="1000">
+        <a href="#">
+          <p>NAM,Seung woo</p>
+          <p>남승우<br>대표</p>
+        </a>
+      </li>
+
+      <li data-aos="flip-left" data-aos-duration="1000">
+        <a href="#">
+          <p>Brand Identity</p>
+          <p>브랜드<br>아이덴티티</p>
+        </a>
+      </li>
+
+      <li data-aos="flip-left" data-aos-duration="1000">
+        <a href="#">
+          <p>Contact US</p>
+          <p>Contact<br>US</p>
+        </a>
+      </li>
+    
+</ul>
+  </div>
+ </div>
+
+
+ <div class="footer">
+  <div class="fnb2">
+    <ul class="f_menu">
+<li><a href="#">개인정보처리방침</a></li>
+<li><a href="#">이용약관</a></li>
+    </ul>
+    <div class="family">
+      <button type="button" class="family_btn">계열사</button>
+      <ul class="family_list">
+        <li><a href="#">풀무원녹즙</a></li>
+        <li><a href="#">풀무원푸드머스</a></li>
+        <li><a href="#">풀무원푸드앤컬처</a></li>
+        <li><a href="#">풀무원다논</a></li>
+        <li><a href="#">풀무원샘물</a></li>
+        <li><a href="#">Pulmuone Foods USA</a></li>
+        <li><a href="#">풀무원건강생활</a></li>
+        <li><a href="#">아사히코</a></li>
+        <li><a href="#">푸메이뚜어</a></li>
+        
+      </ul>
+    </div>
+    
+  </div>
+  <div class="copyright">
+
+    <span>대표자 : 이효율|주소 : 서울 강남구 광평로 280 (수서동)</span>
+    <span>(주) 풀무원사업자등록번호 : 315-81-01744 사업자 정보확인|통신판매업신고 : 제2019-서울강남-02379호|건강기능식품 신고 : 제2019-016813호</span>
+    <span>|호스팅 제공자 : (주)풀무원</span> 
+  </div>
+ </div>
+
+ <div class="top_btn">
+  <img src="imgs/section04_arrow.png">
+  Top
+ </div>
+</body>
+</html>
